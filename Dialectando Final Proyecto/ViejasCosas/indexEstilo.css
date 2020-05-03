@@ -1,0 +1,333 @@
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background:url(../Fondos/fondo.jpg);
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+a:hover {
+  background-color: white;
+}
+
+.container {
+	width: 100%;
+	height: 100;
+	max-width: 1366px;
+	min-width: 786px;
+	
+	min-height: 768px;
+	max-height: 1080px;
+	
+	margin: 0 auto; 
+}
+
+.header {
+	background-color: #FFBB33;
+	display:bock;
+	Padding-left: 30px;
+	font-family: 'Montserrat', sans-serif;
+	height: 160px;
+	width: 1335px;
+}
+
+
+.logo {
+	position: relative;
+	padding: 5px;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: 0px;
+	width: 600px;
+	height: 100px;
+	animation: logo 2s ease .2s forwards;
+	transform: scale(0.5);	
+}
+
+@keyframes logo{
+	from{
+		transform: scale(0.5);	
+	}
+	to{
+		transform: scale(1);
+	}
+}
+
+.content {
+	padding: 0px 0;
+	
+}
+
+.contenido{
+	background:url(/Fondos/fondoD.png);
+	background-repeat: no-repeat;
+	position:relative;
+	width: 1365px;
+	height:700px;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+.footer {
+	padding: 5px;
+	background-color: #6F7D94;
+	width: 1355px;
+	height: 100px;
+}
+
+.cuento{
+	position: absolute;
+	background: url(../Fondos/Cuento.png);
+	width: 370px;
+	height: 575px;
+	top: 37px;
+	bottom: 0px;
+	right: 0px;
+	left: 925px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.botones{
+	position:relative;
+	width: 1020px;
+	height: 500px;
+	top: 150px;
+	bottom: 0px;
+	right: 0px;
+	left: 100px;
+
+}
+
+
+.cajon1{
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	top: 5px;
+	bottom: 0px;
+	right: 0px;
+	left: 5px;
+}
+
+.cajon2{
+	position:absolute;
+	width: 450px;
+	height: 450px;
+	top: 5px;
+	bottom: 0px;
+	right: 0px;
+	left: 460px;
+}
+
+
+.renglon1{
+	position:relative;
+	width: 375px;
+	height: 100px;
+	top: 20px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+}
+
+.renglon2{
+	position:relative;
+	width: 375px;
+	height: 100px;
+	top: 40px;
+	bottom: 0px;
+	right: 0px;
+	left: 30px;
+}
+
+.renglon3{
+	position:relative;
+	width: 375px;
+	height: 100px;
+	top: 60px;
+	bottom: 0px;
+	right: 0px;
+	left: 60px;
+}
+
+
+
+.piePagina{
+	position: relative; 
+	width: 1358px;
+	height: 95px;
+	left: 0px;
+	top: 0px;
+	float: left;
+}
+
+.contactos{
+	position: relative;
+	width: 250px;
+	height: 70px;
+	left: 5px;
+	top: 5px;
+	right: 0px;
+	float: left;
+}
+
+.facebook{
+	position: relative;
+	width: 60px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	margin: 5px;
+	float: left;
+}
+
+.twitter{
+	position: relative;
+	width: 60px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	margin: 5px;
+	float: left;
+
+}
+
+.instagram{
+	position: relative;
+	width: 60px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	margin: 5px;
+	float: left;
+
+}
+
+.overlay{
+	background: rgba(0,0,0,.5);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left:0 ;
+	right: 0;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	visibility: hidden;
+}
+
+.overlay.active{
+	visibility: visible;
+}
+
+.popup{
+	background: #F8F8F8;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	border-radius: 3px;
+	padding: 20px;
+	text-align: center;
+	width: 600px;
+	opacity: 0;
+	transition: .3s ease all;
+	transform: scale(0.7);
+}
+
+.popup.active{
+	opacity: 1;
+	transform: scale(1);
+}
+
+.popup.active h3 {
+	animation: titulo .8s ease .5s forwards;
+	
+}
+
+.popup h3 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	opacity: 0;
+}
+
+@keyframes titulo{
+	from{
+		transform: translateY(-25px);
+		opacity: 0;	
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.popup.active h4{
+	animation: texto 2s ease .5s forwards;
+}
+
+.popup h4 {
+	font-size: 26px;
+	font-weight: 300;
+	margin-bottom: 40px;
+	opacity: 0;
+}
+
+@keyframes texto{
+	from{
+		transform: translateY(25px);
+		opacity: 0;	
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+
+.popup .boton-cerrar-popup{
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	text-align: right;
+	color: #BBBBBB;	
+}
+
+.popup .boton-cerrar-popup:hover{
+	color: #000;
+	
+}
+
+.somos{
+	position:relative;
+	float:right
+}
+
+.boton-abrir-popup {
+	padding: 0 20px;
+	margin-bottom: 20px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	background: #5E7DE3;
+	border-radius: 3px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .3s ease all;
+	cursor: pointer;
+	top: 20px;
+}
+
+
+
+

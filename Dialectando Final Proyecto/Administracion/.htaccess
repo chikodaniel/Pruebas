@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Access to /Administracion"
+AuthUserFile /kunden/homepages/23/d798686674/htpasswd
+Require user dialectando

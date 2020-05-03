@@ -1,0 +1,258 @@
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background:url(../Fondos/fondo.jpg);
+	margin: 0;
+	padding: 0;
+	
+}
+
+a:hover {
+  background-color: white;
+}
+
+.container {
+	width: 100%;
+	height: 100;
+	max-width: 1366px;
+	min-width: 786px;
+	
+	min-height: 768px;
+	max-height: 1080px;
+	
+	margin: 0 auto; 
+}
+
+.header {
+	background-color: #FFBB33;
+	display:bock;
+	Padding-left: 30px;
+	width: 1335px;
+	height: 150px;
+}
+
+.content {
+	padding: 0px 0;
+	
+}
+
+
+
+.contenido{
+	background:url(/Fondos/fondoPast.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 1365px;
+	height: 750px;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+.footer {
+	padding: 25px 0;
+	background-color: #6F7D94;
+	width: 1366px;
+	height: 100px;
+}
+
+.cabecera{
+	position: relative;
+	width: 1350px;
+	height: 80px;
+	top: 10px;
+	bottom: 0px;
+	left: 5px;
+	right: 0px;
+}
+
+.botonSuperior{
+	position:relative;
+	width: 125px;
+	height: 40px;
+	top: 10px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: 15px;
+	float: left;
+}
+
+.botones{
+	position:relative;
+	width: 1350px;
+	height: auto;
+	top: 80px;
+	botton: 0px;
+	right: 0px;
+	left: 5px;
+}
+
+.Fila1{
+	position:relative;
+	width: 375px;
+	height: 100px;
+	top: 5px;
+	bottom: 0px;
+	right: 20px;
+	left: 25px;
+	float:left;
+	margin: 25px;
+	background-color: #FFFFFF;
+}
+
+.Fila2{
+	position: relative;
+	width: 375px;
+	height: 100px;
+	top: 5px;
+	bottom: 0px;
+	right: 20px;
+	left: 25px;
+	float: left;
+	margin: 25px;
+	background-color: #FFFFFF;
+}
+
+.Fila3{
+	position:relative;
+	width: 375px;
+	height: 100px;
+	top: 5px;
+	bottom: 0px;
+	right: 20px;
+	left: 25px;
+	float:left;
+	margin: 25px;
+	background-color: #FFFFFF;
+}
+
+.Fila4{
+	position:relative;
+	width: 375px;
+	height: 100px;
+	top: 5px;
+	bottom: 0px;
+	right: 20px;
+	left: 25px;
+	float:left;
+	margin: 25px;
+	background-color: #FFFFFF;
+}
+
+.Fila5{
+	position:relative;
+	width: 375px;
+	height: 100px;
+	top: 5px;
+	bottom: 0px;
+	right: 20px;
+	left: 25px;
+	float:left;
+	margin: 25px;
+	background-color: #FFFFFF;
+}
+
+.Fila6{
+	position:relative;
+	width: 375px;
+	height: 100px;
+	top: 5px;
+	bottom: 0px;
+	right: 20px;
+	left: 25px;
+	float:left;
+	margin: 25px;
+	background-color: #FFFFFF;
+}
+
+.contacto{
+	position: relative;
+	width: 75px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	float:left;
+}
+
+.principal{
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	background: rgba(0,0,0,.5);
+	width: 600px;
+	height: 600px;
+	top: 75px;
+	bottom: 0px;
+	left: 30px;
+	right: 0px;
+	border-style: solid;
+	float: left;
+	color: white;
+}
+
+.palabra{
+	position: relative;
+	padding: 0px;
+	margin: 25px;
+	border-style: solid;
+		
+}
+
+.palabraOrigen{
+	position:relative;
+	margin: 5px;
+	padding: 5px;
+	width: 250px;
+}
+
+.palabraDestino{
+	position:relative;
+	margin: 5px;
+	padding: 5px;
+	width: 250px;
+}
+
+
+.idioma{
+	position: relative;
+	padding: 10px;
+	margin: 25px;
+	border-style: solid;
+}
+
+.categoria{
+	position: relative;
+	padding: 10px;
+	margin: 25px;
+	border-style: solid;
+}
+
+.secundaria{
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	background: rgba(0,0,0,.3);
+	width: 600px;
+	height: 600px;
+	top: 75px;
+	bottom: 0px;
+	left: 115px;
+	right: 0px;
+	border-style: solid;
+	float: left;
+}
+
+.busqueda{
+	position: relative;
+	height: 525px;
+	padding: 10px;
+	margin: 25px;
+	border-style: solid;
+}
+
+.enviar{
+	position: relative;
+	padding: 10px;
+	margin: 25px;
+	
+}
